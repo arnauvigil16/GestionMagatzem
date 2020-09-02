@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuTiempo"
+        android:icon="@drawable/weather"
+        android:title="Weather"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mnuBuscar"
+        android:icon="@drawable/historial"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnuAfegir"
+        android:title="Add"
+        android:icon="@drawable/add"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mnuStock"
+        android:title="Stock" />
+    <item
+        android:id="@+id/mnuSinStock"
+        android:title="Sin stock" />
+    <item
+        android:id="@+id/mnuAll"
+        android:title="Tots" />
+</menu>
