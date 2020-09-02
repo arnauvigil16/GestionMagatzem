@@ -167,7 +167,7 @@ public class Weather extends AppCompatActivity {
         client.setMaxRetriesAndTimeout(0,10000);
 
 
-        String Url = "https://api.openweathermap.org/data/2.5/weather?q=" + edtCiutat.getText().toString() + "&appid=7a88a0039bd7ade0a5894c796a39be17";
+        String Url = "https://api.openweathermap.org/data/2.5/weather?q=" + edtCiutat.getText().toString() + "codigo";
         client.get(this,Url, new AsyncHttpResponseHandler() {
 
 
